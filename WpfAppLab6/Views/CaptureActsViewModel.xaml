@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="WpfAppLab6.Views.CaptureActsViewModel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfAppLab6.Views"
+             x:Name="CaptureActView">
+    <Grid>
+        <DataGrid ItemsSource="{Binding CaptureActs, ElementName=CaptureActView}"
+                  SelectedItem="{Binding SelectedCaptureAct, ElementName=CaptureActView}"
+                  AutoGenerateColumns="False"
+                  DataContext="{Binding ElementName=CaptureActView}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Count Dogs" Binding="{Binding CountDogs}" />
+                <DataGridTextColumn Header="Count Cats" Binding="{Binding CountCats}" />
+                <DataGridTextColumn Header="Count Animals" Binding="{Binding CountAnimals}" />
+                <DataGridTextColumn Header="Capture Date" Binding="{Binding CaptureDate}" />
+                <DataGridTextColumn Header="Capture Purpose" Binding="{Binding CapturePurpose}" />
+                <DataGridTextColumn Header="Organization" Binding="{Binding Organization.Id}" />
+                <DataGridTextColumn Header="Contract" Binding="{Binding Contract.Id}" />
+                <DataGridTextColumn Header="Claim" Binding="{Binding Claim.Id}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>
