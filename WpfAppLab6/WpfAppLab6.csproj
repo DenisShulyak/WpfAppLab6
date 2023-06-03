@@ -18,7 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Update="Views\CaptureActsViewModel.xaml.cs">
+      <Compile Update="Views\CaptureActsRegistryViewModel.xaml.cs">
         <DependentUpon>CaptureActsViewModel.xaml</DependentUpon>
       </Compile>
     </ItemGroup>

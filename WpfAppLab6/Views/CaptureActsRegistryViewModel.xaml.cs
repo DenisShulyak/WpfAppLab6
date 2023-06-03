@@ -8,7 +8,7 @@ using WpfAppLab6.Services;
 
 namespace WpfAppLab6.Views
 {
-    public partial class CaptureActsViewModel : UserControl, INotifyPropertyChanged
+    public partial class CaptureActsRegistryViewModel : UserControl, INotifyPropertyChanged
     {
         private ObservableCollection<CaptureAct> _captureActs;
         private Claim _selectedCaptureAct;
@@ -33,7 +33,7 @@ namespace WpfAppLab6.Views
             }
         }
 
-        public CaptureActsViewModel()
+        public CaptureActsRegistryViewModel()
         {
             InitializeComponent();
             LoadClaims();

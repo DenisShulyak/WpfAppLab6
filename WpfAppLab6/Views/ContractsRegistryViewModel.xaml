@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="WpfAppLab6.Views.ContractsRegistryViewModel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfAppLab6.Views"
+             x:Name="ContractsRegistryView">
+    <Grid>
+        <DataGrid ItemsSource="{Binding Contracts, ElementName=ContractsRegistryView}"
+                  SelectedItem="{Binding SelectedContract, ElementName=ContractsRegistryView}"
+                  AutoGenerateColumns="False"
+                  DataContext="{Binding ElementName=ContractsRegistryView}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Begin Date" Binding="{Binding BeginDate}" />
+                <DataGridTextColumn Header="End Date" Binding="{Binding EndDate}" />
+                <DataGridTextColumn Header="Customer" Binding="{Binding Customer.Name}" />
+                <DataGridTextColumn Header="Executor" Binding="{Binding Executor.Name}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

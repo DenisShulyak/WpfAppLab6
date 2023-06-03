@@ -50,5 +50,11 @@ C:\Users\denis\RiderProjects\WpfAppLab6\WpfAppLab6\obj\Debug\netcoreapp3.1\Views
 C:\Users\denis\RiderProjects\WpfAppLab6\WpfAppLab6\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\denis\RiderProjects\WpfAppLab6\WpfAppLab6\obj\Debug\netcoreapp3.1\WpfAppLab6.csprojAssemblyReference.cache
 C:\Users\denis\RiderProjects\WpfAppLab6\WpfAppLab6\obj\Debug\netcoreapp3.1\WpfAppLab6_MarkupCompile.lref
-C:\Users\denis\RiderProjects\WpfAppLab6\WpfAppLab6\obj\Debug\netcoreapp3.1\Views\CaptureActsViewModel.g.cs
-C:\Users\denis\RiderProjects\WpfAppLab6\WpfAppLab6\obj\Debug\netcoreapp3.1\Views\CaptureActsViewModel.baml
+C:\Users\denis\RiderProjects\WpfAppLab6\WpfAppLab6\obj\Debug\netcoreapp3.1\Views\CaptureActsRegistryViewModel.g.cs
+C:\Users\denis\RiderProjects\WpfAppLab6\WpfAppLab6\obj\Debug\netcoreapp3.1\Views\CaptureActsRegistryViewModel.baml
+C:\Users\denis\RiderProjects\WpfAppLab6\WpfAppLab6\obj\Debug\netcoreapp3.1\Views\ContractsRegistryViewModel.g.cs
+C:\Users\denis\RiderProjects\WpfAppLab6\WpfAppLab6\obj\Debug\netcoreapp3.1\Views\ContractsRegistryViewModel.baml
+C:\Users\denis\RiderProjects\WpfAppLab6\WpfAppLab6\obj\Debug\netcoreapp3.1\Views\OrganizationsRegistryViewModel.g.cs
+C:\Users\denis\RiderProjects\WpfAppLab6\WpfAppLab6\obj\Debug\netcoreapp3.1\Views\OrganizationsRegistryViewModel.baml
+C:\Users\denis\RiderProjects\WpfAppLab6\WpfAppLab6\obj\Debug\netcoreapp3.1\Views\Organizations\EditOrganizationWindow.baml
+C:\Users\denis\RiderProjects\WpfAppLab6\WpfAppLab6\obj\Debug\netcoreapp3.1\Views\Organizations\EditOrganizationWindow.g.cs
